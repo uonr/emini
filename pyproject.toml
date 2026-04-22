@@ -1,0 +1,20 @@
+[project]
+name = "emini"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gemini-webapi>=2.0.0",
+    "ruff>=0.15.11",
+]
+
+[project.scripts]
+emini = "main:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
