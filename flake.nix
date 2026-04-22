@@ -107,6 +107,7 @@
               UV_NO_SYNC = "1";
               UV_PYTHON = editablePythonSet.python.interpreter;
               UV_PYTHON_DOWNLOADS = "never";
+              UV_PROJECT_ENVIRONMENT = "${virtualenv}";
             };
 
             shellHook = ''
